@@ -1,0 +1,871 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Erick Price">
+
+    <link rel="icon" type="image/x-icon" href="/images/Attorney-Eric-Price-1365x2048.webp">
+
+    <link rel="stylesheet" href="css/normalize.css  ">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/mediaQuery.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/4f12dacfd7.js" crossorigin="anonymous"></script>
+
+    <title>Eric Price - Immigration Attorney</title>
+
+</head>
+
+<body>
+    <button class="myBtn" id="myBtn" title="Call">
+        <a href="tel:(855)662-2772"><i class="fa-solid fa-phone"></i></a></button>
+
+    <header>
+        <div class="nav-container" id="Navigation">
+            <nav class="container">
+                <a href="index.html"><img src="images/EricpriceLogo.svg" alt="Eric Price Logo"></a>
+                <div class="nav-links" id="navLinks">
+                    <ul>
+                        <i class="fas fa-times" onclick="hideMenu()"></i>
+                        <li class="nav-item"><a href="#Navigation">Home</a></li>
+                        <li class="nav-item"><a href="#Nosotros">About Us</a></li>
+                        <li class="nav-item"><a href="#Servicios">Services</a></li>
+                        <li class="nav-item"><a href="#Equipo">Team</a></li>
+                        <li class="nav-item"><a href="#FAQ">FAQ</a></li>
+                        <li class="nav-item"><a href="#Testimonios">Testimonials</a></li>
+                        <li class="nav-item"><a href="#Blog">Blog</a></li>
+                        <li class="nav-item"><a href="#Contacto">Contact</a></li>
+                        <li class="nav-item"><a href="index.html" class="btn-english">Español</a></li>
+                    </ul>
+                </div>
+                <i class="fas fa-bars" onclick="showMenu()"></i>
+            </nav>
+        </div>
+        <section>
+            <div class="banner">
+                <div class="banner-text container">
+                    <div class="text">
+                        <p class="textSpanHero">Your trusted migration attorney</p>
+                        <h1 class="title titleHero">Attorney Eric Price <br> will fight for you</h1>
+                        <p class="subtitleHero">Helping thousands of people <br> with their migratory procedures.</p>
+                        <!-- <div class='subtitle subtitleHero'><span id='text'></span>
+                            <div class='console-underscore' id='console'>&#95;</div>
+                        </div> -->
+                        <div class="buttons">
+                            <div class="phoneButton phoneButtoHero">
+                                <button class="phone phoneHero">
+                                    <div class="phoneImg phoneImgHero">
+                                        <img src="images/icons/phone-call-white.png" alt="phone icon">
+                                    </div>
+                                    <div class="phoneN">
+                                        <a href="tel:(855)662-2772">(855) 662-2772</a>
+                                    </div>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="stats">
+                            <div class="statTxt">
+                                <div class="icon">
+                                    <i class="fa-solid fa-house"></i>
+                                </div>
+                                <div class="textContent">
+                                    <p class="titleStats">1,734 <span>+</span></p>
+                                    <p class="statDesc">Families <br> together</p>
+                                </div>
+                            </div>
+                            <div class="hr">
+                                <hr style="height:100%;width:100%;background-color:#001e3e;">
+                            </div>
+                            <div class="statTxt">
+                                <div class="icon">
+                                    <i class="fa-solid fa-id-card"></i>
+                                </div>
+                                <div class="textContent">
+                                    <p class="titleStats">1,258 <span>+</span></p>
+                                    <p class="statDesc">Green <br> cards</p>
+                                </div>
+                            </div>
+                            <div class="hr">
+                                <hr style="height:100%;width:100%;background-color:#001e3e;">
+                            </div>
+                            <div class="statTxt">
+                                <div class="icon">
+                                    <i class="fa-solid fa-shield-halved"></i>
+                                </div>
+                                <div class="textContent lastStatDesc">
+                                    <p class="titleStats">468 <span>+</span></p>
+                                    <p class="statDesc">Deportations <br> arrested</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="banner-img">
+                        <div class="imgHero">
+                            <img src="images/ericPriceSinFondo.png" alt="Image from eric price to Hero Section">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </header>
+
+    <div class="nosotros container" id="Nosotros">
+        <h2 class="subtitle subtitleNosotros">What makes us unique</h2>
+        <div class="nosotrosDetails">
+            <p class="detailsUsText detailText">
+                With Eric Price, have the assurance that we will take your case and take it to be one more than
+                Our success cases.
+            </p>
+        </div>
+        <div class="beneficios-container">
+            <div class="lottieUs">
+                <div class="illustration">
+                    <img src="images/PriceTeam2-removebg-preview.png" alt="">
+                </div>
+            </div>
+            <div class="itemsContainer">
+                <div class="itemBeneficio">
+                    <div class="iconUs">
+                        <i class="fa-solid fa-check"></i>
+                    </div>
+                    <div class="itemDetailsText">
+                        <h3>Consults for free</h3>
+                        <p>When you contact us by phone you can request your first free consultation with one of our
+                            Attorneys</p>
+                    </div>
+                </div>
+                <div class="itemBeneficio">
+                    <div class="iconUs">
+                        <i class="fa-solid fa-check"></i>
+                    </div>
+                    <div class="itemDetailsText">
+                        <h3>Different locations</h3>
+                        <p>We have offices in different states of the country, ask about the closest to your
+                            location.
+                        </p>
+                    </div>
+                </div>
+                <div class="itemBeneficio">
+                    <div class="iconUs">
+                        <i class="fa-solid fa-check"></i>
+                    </div>
+                    <div class="itemDetailsText">
+                        <h3>Wide team</h3>
+                        <p>Our law firm has a great work team which have a Great experience.</p>
+                    </div>
+                </div>
+                <div class="itemBeneficio">
+                    <div class="iconUs">
+                        <i class="fa-solid fa-check"></i>
+                    </div>
+                    <div class="itemDetailsText">
+                        <h3>Experience</h3>
+                        <p>We have more than 15 years of experience taking migratory cases, be sure that we can help you
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="sellos">
+            <div class="itemSello">
+                <img src="images/sello1.webp" alt="AILA">
+            </div>
+            <div class="itemSello">
+                <img src="images/sello2.webp" alt="AVVO">
+            </div>
+            <div class="itemSello">
+                <img src="images/sello3.webp" alt="TOP Attorney">
+            </div>
+            <div class="itemSello">
+                <img src="images/sello4.webp" alt="Reviews">
+            </div>
+        </div>
+    </div>
+
+    <div class="servicios container" id="Servicios">
+        <h2 class="subtitle subtitleService">Main services</h2>
+        <p class="subtitleService detailText">Lawyer Eric Price specializes in immigration cases, including the
+            following below.Contact us today</p>
+        <div class="serviceContainer">
+            <div class="services">
+                <div class="itemService">
+                    <div class="itemIconServ">
+                        <i class="fa-solid fa-gavel"></i>
+                    </div>
+                    <div class="itemContent">
+                        <p>Residence</p>
+                    </div>
+                </div>
+                <div class="itemService">
+                    <div class="itemIconServ">
+                        <i class="fa-solid fa-gavel"></i>
+                    </div>
+                    <div class="itemContent">
+                        <p>U Visa</p>
+                    </div>
+                </div>
+                <div class="itemService">
+                    <div class="itemIconServ">
+                        <i class="fa-solid fa-gavel"></i>
+                    </div>
+                    <div class="itemContent">
+                        <p>Family request</p>
+                    </div>
+                </div>
+                <div class="itemService">
+                    <div class="itemIconServ">
+                        <i class="fa-solid fa-gavel"></i>
+                    </div>
+                    <div class="itemContent">
+                        <p>American citizenship</p>
+                    </div>
+                </div>
+                <div class="itemService">
+                    <div class="itemIconServ">
+                        <i class="fa-solid fa-gavel"></i>
+                    </div>
+                    <div class="itemContent">
+                        <p>Consular Processing</p>
+                    </div>
+                </div>
+                <div class="itemService">
+                    <div class="itemIconServ">
+                        <i class="fa-solid fa-gavel"></i>
+                    </div>
+                    <div class="itemContent">
+                        <p>Defense against expulsion</p>
+                    </div>
+                </div>
+                <div class="itemService">
+                    <div class="itemIconServ">
+                        <i class="fa-solid fa-gavel"></i>
+                    </div>
+                    <div class="itemContent">
+                        <p>Greencard</p>
+                    </div>
+                </div>
+                <div class="itemService itemServiceTel">
+                    <div class="itemIconServ">
+                        <i class="fa-solid fa-phone"></i>
+                    </div>
+                    <div class="itemContent">
+                        <p><a href="tel:(855)662-2772" class="serviceTel">Call us &#x2192; (855) 662-2772</a></p>
+                    </div>
+                </div>
+            </div>
+            <div class="imgService">
+                <lottie-player src="https://assets6.lottiefiles.com/packages/lf20_nclfex3h.json"
+                    background="transparent" speed="1" loop autoplay></lottie-player>
+            </div>
+        </div>
+    </div>
+
+    <div class="callToAction">
+        <div class="contenidoCTA">
+            <div class="ctaTitle">
+                <h3>Eric Price is <span> willing to help you </span> to fulfill your dreams.</h3>
+            </div>
+            <div class="ctaDesc">
+                <p>In lawyer Eric Price we can help you fulfill your dreams <br> immigration.Ask for your free
+                    consultation with us today.</p>
+            </div>
+            <div class="btnCta">
+                <div class="buttons">
+                    <div class="phoneButton phoneButtoHero phoneButtonCTA">
+                        <button class="phone phoneHero phoneCTA">
+                            <div class="phoneImg phoneImgHero phoneimgCTA">
+                                <img src="images/icons/phone-call-white.png" alt="phone icon">
+                            </div>
+                            <div class="phoneN phoneNCTA">
+                                <a href="tel:(855)662-2772">(855) 662-2772</a>
+                            </div>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="ctaImg">
+            <img src="images/PriceTeam-removebg-preview.png" alt="Eric Price Team">
+        </div>
+    </div>
+
+    <div class="equipo" id="Equipo">
+        <h2 class="subtitle subtitleEquipo">Our team</h2>
+        <div class="attorneys">
+            <div class="itemAtt">
+                <div class="contentAttCircle">
+                    <div class="circle">
+                        <img src="images/Attorney-Eric-Price-1365x2048.webp" alt="Eric Price Avatar">
+                    </div>
+                </div>
+                <div class="attDesc">
+                    <div class="equipoName">
+                        <h3>Eric Price</h3>
+                        <p>Los Angeles</p>
+                    </div>
+                    <div class="social">
+                        <div class="itemSocial facebook">
+                            <a href="https://www.facebook.com/abogadoericprice" target="_blank"><i
+                                    class="fa-brands fa-facebook"></i></a>
+                        </div>
+                        <div class="itemSocial tiktok">
+                            <a href="https://www.tiktok.com/@attorneyericprice" target="_blank"><i
+                                    class="fa-brands fa-tiktok"></i></a>
+                        </div>
+                        <div class="itemSocial instagram">
+                            <a href="https://www.instagram.com/abogadoericprice/" target="_blank"><i
+                                    class="fa-brands fa-instagram"></i></a>
+                        </div>
+                        <div class="itemSocial youtube">
+                            <a href="https://www.youtube.com/c/EricPriceEsq" target="_blank"><i
+                                    class="fa-brands fa-youtube"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="itemAtt">
+                <div class="contentAttCircle">
+                    <div class="circle">
+                        <img src="images/MitziCaardenas.webp" alt="Mitzi Cardenas Avatar">
+                    </div>
+                </div>
+                <div class="attDesc">
+                    <div class="equipoName">
+                        <h3>Mitzi Cardenas</h3>
+                        <p>Los Angeles</p>
+                    </div>
+                    <div class="social">
+
+                        <div class="itemSocial facebook">
+                            <a href="https://www.facebook.com/abogadamitzicardenas" target="_blank"><i
+                                    class="fa-brands fa-facebook"></i></a>
+                        </div>
+                        <div class="itemSocial tiktok">
+                            <a href="https://www.tiktok.com/@attorneymitzicardenas" target="_blank"><i
+                                    class="fa-brands fa-tiktok"></i></a>
+                        </div>
+                        <div class="itemSocial instagram">
+                            <a href="https://www.instagram.com/immigrationlawyermitzi/" target="_blank"><i
+                                    class="fa-brands fa-instagram"></i></a>
+                        </div>
+                        <div class="itemSocial webPage">
+                            <a href="https://abogadoericprice.com/es/mitzi-cardenas" target="_blank"><i
+                                    class="fa-solid fa-globe"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="itemAtt">
+                <div class="contentAttCircle">
+                    <div class="circle">
+                        <img src="images/SumeetLall.webp" alt="Summet Lall Avatar">
+                    </div>
+                </div>
+                <div class="attDesc">
+                    <div class="equipoName">
+                        <h3>Summet Lall</h3>
+                        <p>Orange County</p>
+                    </div>
+                    <div class="social">
+                        <div class="itemSocial facebook">
+                            <a href="https://www.facebook.com/thegiglaw" target="_blank"><i
+                                    class="fa-brands fa-facebook"></i></a>
+                        </div>
+                        <div class="itemSocial instagram">
+                            <a href="https://www.instagram.com/thegiglaw" target="_blank"><i
+                                    class="fa-brands fa-instagram"></i></a>
+                        </div>
+                        <div class="itemSocial youtube">
+                            <a href="https://www.youtube.com/channel/UCpxe790MSlXKiWtdKvjMu-g" target="_blank"><i
+                                    class="fa-brands fa-youtube"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="itemAtt">
+                <div class="contentAttCircle">
+                    <div class="circle">
+                        <img src="images/JonathanStrait.webp" alt="Jonathan Strait Avatar">
+                    </div>
+                </div>
+                <div class="attDesc">
+                    <div class="equipoName">
+                        <h3>Jonathan Strait</h3>
+                        <p>Los Angeles</p>
+                    </div>
+                    <div class="social">
+                        <div class="itemSocial webPage">
+                            <a href="https://abogadoericprice.com/es/mitzi-cardenas" target="_blank"><i
+                                    class="fa-solid fa-globe"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="itemAtt">
+                <div class="contentAttCircle">
+                    <div class="circle">
+                        <img src="images/KeithAyers.webp" alt="Jonathan Strait Avatar">
+                    </div>
+                </div>
+                <div class="attDesc">
+                    <div class="equipoName">
+                        <h3>Keith Ayers</h3>
+                        <p>Los Angeles</p>
+                    </div>
+                    <div class="social">
+                        <div class="itemSocial webPage">
+                            <a href="https://abogadoericprice.com/es/mitzi-cardenas" target="_blank"><i
+                                    class="fa-solid fa-globe"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="itemAtt">
+                <div class="contentAttCircle">
+                    <div class="circle">
+                        <img src="images/Valentin.png" alt="Valentin Bourguet Avatar">
+                    </div>
+                </div>
+                <div class="attDesc">
+                    <div class="equipoName">
+                        <h3>Valentin Bourguet</h3>
+                        <p>Los Angeles</p>
+                    </div>
+                    <div class="social">
+                        <div class="itemSocial webPage">
+                            <a href="https://abogadoericprice.com/es/mitzi-cardenas" target="_blank"><i
+                                    class="fa-solid fa-globe"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="faq" id="FAQ">
+        <div class="subtitleContainer subtitleContainerTestimonial">
+            <h2 class="subtitle subtitleFaq">FAQ</h2>
+        </div>
+        <section id="faqContainer">
+            <div class="accordions">
+                <div class="accordion-item">
+                    <div class="accordion-title" data-tab="item1">
+                        <h3>&#191;They can help me with my migratory process&#63;
+                            <i class="fa fa-chevron-down"></i>
+                        </h3>
+                    </div>
+                    <div class="accordion-content" id="item1">
+                        <p>Of course, if we can help you in any migration process you need, you just occupy get in touch
+                            with us and we will guide you, call the number <span><a href="tel:(855)662-2772"
+                                    class="numberFaq">(855) 662-2772</a></span>
+                        </p>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <div class="accordion-title" data-tab="item2">
+                        <h3>a legal relative member can request me a green card?&#63;
+                            <i class="fa fa-chevron-down"></i>
+                        </h3>
+                    </div>
+                    <div class="accordion-content" id="item2">
+                        <p>
+                            Yes, a relative member can request your residence but it is necessary to review your current
+                            status
+                            and The most thorough case, contact us and we will start your case.
+                        </p>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <div class="accordion-title" data-tab="item3">
+                        <h3>I was a victim of a crime, can i apply to some legal status&#63;<i
+                                class="fa fa-chevron-down"></i></h3>
+                    </div>
+                    <div class="accordion-content" id="item3">
+                        <p>
+                            If you can apply depending on the crime that occurred, for this it is necessary to call us
+                            to be able to Check to which of the different processes you can apply to make your case a
+                            success.
+                        </p>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <div class="accordion-title" data-tab="item4">
+                        <h3>I am a resident and I would like to apply for citizenship, can i take the
+                            Process with you&#63;<i class="fa fa-chevron-down"></i></h3>
+                    </div>
+                    <div class="accordion-content" id="item4">
+                        <p>
+                            Of course, you can apply for citizens, for this it is only necessary to request a
+                            Consult with one of our lawyers.The first consultation is always free.
+                        </p>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <div class="accordion-title" data-tab="item5">
+                        <h3>How can I qualify for an asylum&#63;<i class="fa fa-chevron-down"></i></h3>
+                    </div>
+                    <div class="accordion-content" id="item5">
+                        <p>
+                            There are several reasons why you can request asylum or protection for that is
+                            necessary to evaluate your current situation, contact us to be able to review
+                            All necessary information.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <div class="testimoniales" id="Testimonios">
+        <div class="testimonialContent">
+            <div class="quoteIcon">
+                <i class="fa-solid fa-quote-right"></i>
+            </div>
+            <div class="descriptionTestimonials">
+                <h2>Don't believe what we say, look what our clients say.</h2>
+                <p>We help many people to migrate to the United States, we take each of their cases and create
+                    A personalized plan to be able to take it to a success case.</p>
+            </div>
+            <div class="btnCta">
+                <div class="buttons">
+                    <div class="phoneButton phoneButtoHero phoneButtonCTA">
+                        <button class="phone phoneHero phoneCTA">
+                            <div class="phoneImg phoneImgHero phoneimgCTA">
+                                <img src="images/icons/phone-call-white.png" alt="phone icon">
+                            </div>
+                            <div class="phoneN phoneNCTA">
+                                <a href="tel:(855)662-2772">(855) 662-2772</a>
+                            </div>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="itemsContainer">
+            <div class="itemTestimonial">
+                <div class="contentAttCircle">
+                    <div class="circle">
+                        <img src="images/avatar1.webp" alt="Eric Price Avatar">
+                    </div>
+                </div>
+                <div class="testimonialDetails">
+                    <p>“ Very good lawyer because he has helped many people who perhaps think that their immigration
+                        case is hopeless. Highly recommend your services! God bless him and his professional team. “</p>
+                    <h3>Lorraine Perez</h3>
+                </div>
+            </div>
+            <div class="itemTestimonial">
+                <div class="contentAttCircle testimonialCircle">
+                    <div class="circle circleTestimonial">
+                        <img src="images/avatar2.png" alt="Eric Price Avatar">
+                    </div>
+                </div>
+                <div class="testimonialDetails">
+                    <p>“ Thanks to attorney Eric Price and Paralegal Miss Irene Castrillon for such excellent service,
+                        kindness, and performance in their work! Everything takes time and with the help of God and
+                        them, everything will be excellent! Blessings!! I recommend them!! “</p>
+                    <h3>Oscar Guadron</h3>
+                </div>
+            </div>
+            <div class="itemTestimonial lastItemTestimonial">
+                <div class="contentAttCircle">
+                    <div class="circle">
+                        <img src="images/avatar1.webp" alt="Eric Price Avatar">
+                    </div>
+                </div>
+                <div class="testimonialDetails">
+                    <p>“ I am very happy to have received my work permit. My process was quick and efficient at the
+                        Santa Ana office. I am very grateful to Fabiola, attorney Denise Cabrera, and attorney Eric
+                        Price. They are all very professional and their priority is to help their clients. 100%
+                        recommended !!!!! “</p>
+                    <h3>Mago Pelayo</h3>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="blog" id="Blog">
+        <div class="subtitleContainer subtitleContainerBlog">
+            <!-- <h2 class="subtitle subtitleBlog">BLOG</h2> -->
+            <p class="detailText textDetailBlog">
+                Enter our blog and find more recent information about migratory cases
+            </p>
+            <div class="buttons">
+                <div class="phoneButton phoneButtoHero phoneButtonCTA">
+                    <button class="phone phoneHero phoneCTA">
+                        <div class="phoneN phoneNCTA">
+                            <a href="">See more</a>
+                        </div>
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div class="blogContainer">
+            <div class="itemBlog">
+                <div class="blogImg">
+                    <img src="images/blog1.png" alt="Blog Image">
+                </div>
+                <div class="blogContent">
+                    <p class="dateBlog">septiembre 23, 2022</p>
+                    <h3 class="titleBlog">All about Penalties for Immigration-Related Marriage Fraud
+                    </h3>
+                    <p class="descBlog">Immigration marriage fraud can take several forms. When a marriage fraud is
+                        discovered, not only might the immigrant ...</p>
+                    <button class="btnBlog"><a href=""> Read more &#x2192;</a></button>
+                </div>
+            </div>
+            <div class="itemBlog">
+                <div class="blogImg">
+                    <img src="images/blog2.png" alt="Blog Image">
+                </div>
+                <div class="blogContent">
+                    <p class="dateBlog">septiembre 9, 2022</p>
+                    <h3 class="titleBlog">What happens to an immigration petition if the sponsor dies?
+                    </h3>
+                    <p class="descBlog">Well, the process would be more difficult but not impossible. Unlike in past
+                        years, when the petitioner always died w...</p>
+                    <button class="btnBlog"><a href=""> Read more &#x2192;</a></button>
+                </div>
+            </div>
+            <div class="itemBlog">
+                <div class="blogImg">
+                    <img src="images/blog3.png" alt="Blog Image">
+                </div>
+                <div class="blogContent">
+                    <p class="dateBlog specialDateBlog">agosto 26, 2022</p>
+                    <h3 class="titleBlog">What is Removal Defense?</h3>
+                    <p class="descBlog specialDescBlog">
+                        Removal defense involves representing and advocating for immigrants facing deportation from the
+                        United States. Usuall...</p>
+                    <button class="btnBlog specialBtnBlog"><a href=""> Leer &#x2192;</a></button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="contacto" id="Contacto">
+        <h2 class="subtitle subtitleContacto">Contact</h2>
+        <div class="contactoContainer">
+            <div class="leftContact">
+                <p class="detailText">
+                    In attorney Eric Price we can help you fulfill your immigration dreams.Asks
+                    Your free consultation communicating with us today.
+                </p>
+            </div>
+            <div class="form">
+                <div class="contactImg">
+                    <div class="btnCta">
+                        <div class="buttons">
+                            <div class="phoneButton phoneButtoHero phoneButtonCTA">
+                                <button class="phone phoneHero phoneCTA">
+                                    <div class="phoneImg phoneImgHero phoneimgCTA">
+                                        <img src="images/icons/phone-call-white.png" alt="phone icon">
+                                    </div>
+                                    <div class="phoneN phoneNCTA">
+                                        <a href="tel:(855)662-2772">(855) 662-2772</a>
+                                    </div>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <lottie-player src="https://assets4.lottiefiles.com/packages/lf20_39bbqehv.json"
+                        background="transparent" speed="1" loop autoplay></lottie-player>
+                </div>
+                <div class="formContainer">
+                    <form accept-charset="UTF-8" method="POST" id="form">
+                        <div class="form-group">
+                            <!-- <label for="exampleInputName">Name / Nombre</label> -->
+                            <input type="text" name="fullname" class="form-control" id="exampleInputName"
+                                placeholder="Name">
+                        </div>
+                        <div class="form-group">
+                            <!-- <label for="exampleInputEmail1" required="required">Email / Correo Electrónico</label> -->
+                            <input type="email" name="email" class="form-control" id="exampleInputEmail1"
+                                aria-describedby="emailHelp" placeholder="Email">
+                        </div>
+                        <div class="form-group">
+                            <!-- <label for="example-tel-input" class="col-form-label">Teléfono*</label> -->
+                            <input class="form-control" name="tel" type="tel" id="example-tel-input" required="required"
+                                placeholder="Mobile Phone">
+                        </div>
+                        <div class="form-group">
+                            <label for="titleRadioButtons">Sign up to recive SMS messages</label>
+                            <div class="radioGroup">
+                                <input type="radio" id="radio1" name="RadioGroup1" value="1" checked="true" />
+                                <label for="1">I agree</label>
+                            </div>
+                            <div class="radioGroup">
+                                <input type="radio" id="radio2" name="RadioGroup1" value="2" />
+                                <label for="2">I disagree</label>
+                            </div>
+                        </div>
+                        <p>
+                            By entering my mobile number and checking this box I agree to receive case status updates,
+                            meeting updates, and legal news notifications from Abogado Eric Price Los Angeles
+                            Immigration
+                            Attorneys. Message frequency varies. Text HELP to 94289 for help. Text STOP to 94289 to end.
+                            Msg & data rates may apply. By opting in, I authorize Abogado Eric Price Los Angeles
+                            Immigration
+                            Attorneys to deliver SMS messages using an automatic telephone dialing system and I
+                            understand
+                            that I am not required to opt in as a condition of purchasing any property, goods, or
+                            services.
+                            By leaving this box unchecked you will not be opted in for SMS messages at this time.
+                            Click to read
+                        </p>
+                        <button type="submit" class="btn btn-submit" id="myBtn">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="socialMedia">
+            <div class="logoFooter">
+                <a href="index.html">
+                    <img src="images/EricpriceLogo-white.svg" alt="Eric Price Logo">
+                </a>
+            </div>
+            <div class="redes">
+                <div class="itemSocialFoo facebookFoo">
+                    <a href=""><i class="fa-brands fa-facebook"></i></a>
+                </div>
+                <div class="itemSocialFoo tiktokFoo">
+                    <a href=""><i class="fa-brands fa-tiktok"></i></a>
+                </div>
+                <div class="itemSocialFoo instagramFoo">
+                    <a href=""><i class="fa-brands fa-instagram"></i></a>
+                </div>
+                <div class="itemSocialFoo webTwitterFoo">
+                    <a href=""><i class="fa-brands fa-twitter"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="routeSite">
+            <h3 class="subtitle footerSubtitle">Mapa del sitio</h3>
+            <ul>
+                <li class="navFoo-item"><a href="#Navigation">Inicio</a></li>
+                <li class="navFoo-item"><a href="#Nosotros">Nosotros</a></li>
+                <li class="navFoo-item"><a href="#Servicios">Servicios</a></li>
+                <li class="navFoo-item"><a href="#Equipo">Nuestro Equipo</a></li>
+                <li class="navFoo-item"><a href="#FAQ">FAQ</a></li>
+                <li class="navFoo-item"><a href="#Testimonios">Testimonios</a></li>
+                <li class="navFoo-item"><a href="#Blog">Blog</a></li>
+                <li class="navFoo-item"><a href="#Contacto">Contacto</a></li>
+            </ul>
+        </div>
+        <div class="contactDetails">
+            <h3 class="subtitle footerSubtitle">Detalles de contacto</h3>
+            <div class="detailsContainer">
+                <div class="itemDetail">
+                    <div class="detailIcon">
+                        <i class="fa-solid fa-phone"></i>
+                    </div>
+                    <div class="textDetail">
+                        <p>Teléfono</p>
+                        <a href="tel:(855)662-2772">(855) 662-2772</a>
+                    </div>
+                </div>
+                <div class="itemDetail">
+                    <div class="detailIcon">
+                        <i class="fa-regular fa-envelope"></i>
+                    </div>
+                    <div class="textDetail">
+                        <p>Correo electrónico</p>
+                        <a href="mailto:info@abogadoericprice.com">info@abogadoericprice.com</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="office">
+            <h3 class="subtitle footerSubtitle">Oficinas</h3>
+            <div class="officeContainer">
+                <div class="itemsOffice">
+                    <div class="officeIcon">
+                        <i class="fa-sharp fa-solid fa-location-dot"></i>
+                    </div>
+                    <div class="officeDetails">
+                        <p class="officeTitle">Los Angeles</p>
+                        <p>700 S Flower St, Ste 2925
+                            Los Angeles, CA 90017</p>
+                    </div>
+                </div>
+                <div class="itemsOffice">
+                    <div class="officeIcon">
+                        <i class="fa-sharp fa-solid fa-location-dot"></i>
+                    </div>
+                    <div class="officeDetails">
+                        <p class="officeTitle">Orange County</p>
+                        <p>2677 N. Main St., Ste. 125
+                            Santa Ana, CA 92705</p>
+                    </div>
+                </div>
+                <div class="itemsOffice">
+                    <div class="officeIcon">
+                        <i class="fa-sharp fa-solid fa-location-dot"></i>
+                    </div>
+                    <div class="officeDetails">
+                        <p class="officeTitle">San Marcos</p>
+                        <p>100 E San Marcos Blvd, Ste 120
+                            San Marcos, CA 92069</p>
+                    </div>
+                </div>
+                <div class="itemsOffice">
+                    <div class="officeIcon">
+                        <i class="fa-sharp fa-solid fa-location-dot"></i>
+                    </div>
+                    <div class="officeDetails">
+                        <p class="officeTitle">Chula Vista</p>
+                        <p>660 Bay Blvd, Ste 211
+                            Chula Vista, CA 91910</p>
+                    </div>
+                </div>
+                <div class="itemsOffice">
+                    <div class="officeIcon">
+                        <i class="fa-sharp fa-solid fa-location-dot"></i>
+                    </div>
+                    <div class="officeDetails">
+                        <p class="officeTitle">Chicago</p>
+                        <p>1136 S. Delano Court West
+                            STE B201
+                            Chicago, IL 60605</p>
+                    </div>
+                </div>
+                <div class="itemsOffice">
+                    <div class="officeIcon">
+                        <i class="fa-sharp fa-solid fa-location-dot"></i>
+                    </div>
+                    <div class="officeDetails">
+                        <p class="officeTitle">San Bernardino</p>
+                        <p>473 E Carnegie Dr,
+                            STE 200
+                            San Bernardino, CA 92408</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <!-- <script src="javascript/automaticText.js"></script> -->
+    <script src="javascript/smoothScroll.js"></script>
+    <script src="javascript/main.js"></script>
+    <script src="javascript/form.js"></script>
+    <script src="javascript/faq.js"></script>
+    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+</body>
+
+</html>
