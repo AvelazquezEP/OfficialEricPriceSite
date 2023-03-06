@@ -84,15 +84,8 @@ h2 {
 
 body {
     font-size: 16px;
-    /* 1rem = 10px */
     font-family: var(--primary-font);
     background-color: #ffffff;
-    /* opacity: 1;
-    background-image: repeating-radial-gradient(circle at 0 0, transparent 0, #ffffff 7px), repeating-linear-gradient(#f3f3f355, #f3f3f3); */
-}
-
-.hideme {
-    /* opacity: 0; */
 }
 
 .myBtn {
@@ -610,8 +603,7 @@ nav .fas {
 }
 
 .attDesc {
-    text-align: center;
-    /* padding: 1rem; */
+    text-align: center;    
     color: var(--primary-color);
     display: flex;
     flex-direction: column;

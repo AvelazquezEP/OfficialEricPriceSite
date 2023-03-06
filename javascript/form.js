@@ -1,5 +1,3 @@
-
-const modal = document.getElementById("modal");
 const form = document.getElementById("form");
 form.addEventListener("submit", formSubmit);
 
@@ -14,6 +12,18 @@ function formSubmit(e) {
             "Accept": "application/json",
         },
     })
-        .then(response => alert("Correo Enviado"))
+        .then(response => sendForm())
         .catch(error => alert(error + "RESPONSE"))
+}
+
+const sendForm = () => {
+    const nameInput = document.getElementById("Name");
+    const emailInput = document.getElementById("Email");
+    const phoneNumberInput = document.getElementById("PhoneNumber");
+
+    nameInput.value = "";
+    emailInput.value = "";
+    phoneNumberInput.value = "";
+
+    alert("Correo enviado a Gestform (Salesforce)");
 }
