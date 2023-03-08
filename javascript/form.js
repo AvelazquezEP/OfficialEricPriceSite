@@ -5,7 +5,7 @@ function formSubmit(e) {
     e.preventDefault();
     const formData = new FormData(e.target);
 
-    fetch("https://getform.io/f/ba4e6820-d80f-4293-a15c-3c465781480e", {
+    fetch("https://getform.io/f/2e1e81c3-d1cd-4606-b810-770d7645dced", {
         method: "POST",
         body: formData,
         headers: {
