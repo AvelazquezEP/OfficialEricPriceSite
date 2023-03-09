@@ -5,7 +5,7 @@ function formSubmit(e) {
     e.preventDefault();
     const formData = new FormData(e.target);
 
-    fetch("https://getform.io/f/2e1e81c3-d1cd-4606-b810-770d7645dced", {
+    fetch("https://getform.io/f/f5d1db17-28f9-4e62-9cf8-b9503865607e", {
         method: "POST",
         body: formData,
         headers: {
@@ -17,11 +17,13 @@ function formSubmit(e) {
 }
 
 const sendForm = () => {
-    const nameInput = document.getElementById("Name");
+    const nameInput = document.getElementById("firstName");
+    const lastNameInput = document.getElementById("lastName");
     const emailInput = document.getElementById("Email");
     const phoneNumberInput = document.getElementById("PhoneNumber");
 
     nameInput.value = "";
+    lastNameInput.value = "";
     emailInput.value = "";
     phoneNumberInput.value = "";
 
