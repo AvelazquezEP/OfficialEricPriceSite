@@ -993,7 +993,7 @@ form {
     row-gap: 1rem;
 }
 
-form>input, form>select, form>textarea {
+form>input, form>select, form>textarea, form>.inputGroup>input, form>.inputGroup>.inputItem>input {
     border: none;
     padding: 1rem;
     border-radius: .3rem;

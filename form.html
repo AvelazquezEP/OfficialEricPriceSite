@@ -1,165 +1,105 @@
-<!-- #region First Form -->
+<!DOCTYPE html>
+<html lang="en">
 
-<!--  ----------------------------------------------------------------------  -->
-<!--  NOTE: Please add the following <META> element to your page <HEAD>.      -->
-<!--  If necessary, please modify the charset parameter to specify the        -->
-<!--  character set of your HTML page.                                        -->
-<!--  ----------------------------------------------------------------------  -->
-<META HTTP-EQUIV="Content-type" CONTENT="text/html; charset=UTF-8">
-<!--  ----------------------------------------------------------------------  -->
-<!--  NOTE: Please add the following <FORM> element to your page.             -->
-<!--  ----------------------------------------------------------------------  -->
-<form action="https://webto.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8" method="POST">
-    <input type=hidden name="oid" value="00D5f000006OVX8">
-    <input type=hidden name="retURL" value="http://abogadoericprice.com">
-    <!--  ----------------------------------------------------------------------  -->
-    <!--  NOTE: These fields are optional debugging elements. Please uncomment    -->
-    <!--  these lines if you wish to test in debug mode.                          -->
-    <!--  <input type="hidden" name="debug" value=1>                              -->
-    <!--  <input type="hidden" name="debugEmail" value="lp@leftpropeller.com">    -->
-    <!--  ----------------------------------------------------------------------  -->
-    <label for="first_name">First Name</label><input id="first_name" maxlength="40" name="first_name" size="20"
-        type="text" /><br>
-    <label for="last_name">Last Name</label><input id="last_name" maxlength="80" name="last_name" size="20"
-        type="text" /><br>
-    <label for="email">Email</label><input id="email" maxlength="80" name="email" size="20" type="text" /><br>
-    <label for="company">Company</label><input id="company" maxlength="40" name="company" size="20" type="text" /><br>
-    <label for="city">City</label><input id="city" maxlength="40" name="city" size="20" type="text" /><br>
-    <label for="state">State/Province</label><input id="state" maxlength="20" name="state" size="20" type="text" /><br>
-    Text Opt In:<input id="00N5f00000XXuHl" name="00N5f00000XXuHl" type="checkbox" value="1" /><br>
-    Location:<select id="00N5f00000SB1X0" name="00N5f00000SB1X0" title="Location">
-        <option value="">--None--</option>
-        <option value="Chicago">Chicago</option>
-        <option value="El Paso">El Paso</option>
-        <option value="Los Angeles">Los Angeles</option>
-        <option value="National">National</option>
-        <option value="Orange County">Orange County</option>
-        <option value="San Diego">San Diego</option>
-        <option value="San Marcos">San Marcos</option>
-        <option value="San Bernardino">San Bernardino</option>
-    </select><br>
-    <label for="mobile">Mobile</label><input id="mobile" maxlength="40" name="mobile" size="20" type="text" /><br>
-    <input type="submit" name="submit">
-</form>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Erick Price">
 
-<!-- #endregion First Form -->
+    <link rel="icon" type="image/x-icon" href="/images/Attorney-Eric-Price-1365x2048.webp">
 
-<!-- #region Second Form -->
-<!--  ----------------------------------------------------------------------  -->
-<!--  NOTE: Please add the following <META> element to your page <HEAD>.      -->
-<!--  If necessary, please modify the charset parameter to specify the        -->
-<!--  character set of your HTML page.                                        -->
-<!--  ----------------------------------------------------------------------  -->
+    <link rel="stylesheet" href="css/normalize.css  ">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/form.css">
 
-<META HTTP-EQUIV="Content-type" CONTENT="text/html; charset=UTF-8">
-<form action="https://webto.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8" method="POST">
-    <input type=hidden name="oid" value="00D5f000006OVX8">
-    <input type=hidden name="retURL" value="">
-    <label for="first_name">First Name</label><input id="first_name" maxlength="40" name="first_name" size="20"
-        type="text" /><br>
-    <label for="last_name">Last Name</label><input id="last_name" maxlength="80" name="last_name" size="20"
-        type="text" /><br>
-    <label for="email">Email</label><input id="email" maxlength="80" name="email" size="20" type="text" /><br>
-    <label for="mobile">Mobile</label><input id="mobile" maxlength="40" name="mobile" size="20" type="text" /><br>
-    <label for="lead_source">Lead Source</label>
-    <select id="lead_source" name="lead_source">
-        <option value="">--None--</option>
-        <option value="EP-CA-Facebook">EP-CA-Facebook</option>
-        <option value="EP-CA-Facebook-PPC">EP-CA-Facebook-PPC</option>
-        <option value="EP-CA-Google-PPC">EP-CA-Google-PPC</option>
-        <option value="EP-CA-Google">EP-CA-Google</option>
-        <option value="EP-CA-Instagram-PPC">EP-CA-Instagram-PPC</option>
-        <option value="EP-CA-TikTok-PPC">EP-CA-TikTok-PPC</option>
-        <option value="EP-CA-Website">EP-CA-Website</option>
-        <option value="EP-CA-Youtube">EP-CA-Youtube</option>
-        <option value="EP-LA-Avvo.PPC">EP-LA-Avvo.PPC</option>
-        <option value="EP-LA-Linkedin.PPC">EP-LA-Linkedin.PPC</option>
-        <option value="EP-LA-Radio-Louie.G">EP-LA-Radio-Louie.G</option>
-        <option value="EP-LA-Radio.KSCA">EP-LA-Radio.KSCA</option>
-        <option value="EP-LA-Radio.Viva">EP-LA-Radio.Viva</option>
-        <option value="EP-LA-Yelp-PPC">EP-LA-Yelp-PPC</option>
-        <option value="EP.SD.TicTok">EP.SD.TicTok</option>
-        <option value="EP-SD-TV-Telemundo-Commercial">EP-SD-TV-Telemundo-Commercial</option>
-        <option value="Referral (Client)">Referral (Client)</option>
-        <option value="Referral (Non-Client)">Referral (Non-Client)</option>
-        <option value="GIG-CA-Facebook">GIG-CA-Facebook</option>
-        <option value="GIG-CA-Facebook-PPC">GIG-CA-Facebook-PPC</option>
-        <option value="GIG-CA-Google-PPC">GIG-CA-Google-PPC</option>
-        <option value="GIG-CA-Instagram-PPC">GIG-CA-Instagram-PPC</option>
-        <option value="GIG-CA-Linkedin-PPC">GIG-CA-Linkedin-PPC</option>
-        <option value="GIG-CA-Tictok-PPC">GIG-CA-Tictok-PPC</option>
-        <option value="GIG-CA-Website">GIG-CA-Website</option>
-        <option value="MC-CH-Website">MC-CH-Website</option>
-        <option value="MC.CH.Tiktok">MC.CH.Tiktok</option>
-        <option value="MC-CH-Facebook">MC-CH-Facebook</option>
-        <option value="MC-CH-Facebook-PPC">MC-CH-Facebook-PPC</option>
-        <option value="MC-CH-Google-PPC">MC-CH-Google-PPC</option>
-        <option value="MC-CH-Radio-AMOR">MC-CH-Radio-AMOR</option>
-        <option value="MC-CH-Print-Ad">MC-CH-Print-Ad</option>
-        <option value="DC-OC-TikTok">DC-OC-TikTok</option>
-        <option value="EL-Facebook">EL-Facebook</option>
-        <option value="EL-Facebook-PPC">EL-Facebook-PPC</option>
-        <option value="EL-Google">EL-Google</option>
-        <option value="Community Outreach">Community Outreach</option>
-        <option value="Word of Mouth">Word of Mouth</option>
-        <option value="Other">Other</option>
-        <option value="EP-Facebook-SanBernardino">EP-Facebook-SanBernardino</option>
-        <option value="EP-Facebook-Riverside">EP-Facebook-Riverside</option>
-        <option value="MC.CH.Tik Tok">MC.CH.Tik Tok</option>
-    </select><br>
-    SMS Opt-In:<select id="00N5f00000SB1XU" name="00N5f00000SB1XU" title="SMS Opt-In">
-        <option value="">--None--</option>
-        <option value="Yes">Yes</option>
-        <option value="No">No</option>
-    </select><br>
-    Language:<select id="00N5f00000SB1Ws" name="00N5f00000SB1Ws" title="Language">
-        <option value="">--None--</option>
-        <option value="English">English</option>
-        <option value="Spanish">Spanish</option>
-    </select><br>
-    <input type="submit" name="submit">
-</form>
-<!-- #endregion -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/4f12dacfd7.js" crossorigin="anonymous"></script>
 
-<!-- #region Actual FORM -->
+    <title>Eric Price - Contact</title>
+</head>
 
-<form method="POST" action="https://webto.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8" id="form">
-    <input type=hidden name="oid" value="00D5f000006OVX8">
-    <input type=hidden name="retURL" value="http://127.0.0.1:5501/index.html">
-    <!--  ----------------------------------------------------------------------  -->
-    <!--  NOTE: These fields are optional debugging elements. Please uncomment    -->
-    <!--  these lines if you wish to test in debug mode.                          -->
-    <!--  <input type="hidden" name="debug" value=1>                              -->
-    <!--  <input type="hidden" name="debugEmail" value="lp@leftpropeller.com">    -->
-    <!--  ----------------------------------------------------------------------  -->
-    <!-- <label for="first_name">Nombre</label> -->
-    <input id="first_name" maxlength="40" name="first_name" size="20" type="text" placeholder="Nombre" />
-    <br>
-    <!-- <label for="last_name">Apellido</label> -->
-    <input id="last_name" maxlength="80" name="last_name" size="20" type="text" placeholder="Apellido" />
-    <br>
-    <label for="mobile">Mobile</label>
-    <input id="mobile" maxlength="40" name="mobile" size="20" type="text" placeholder="Télefono" />
-    <br>
-    <label for="email">Email</label>
-    <input id="email" maxlength="80" name="email" size="20" type="text" />
-    <br>
-    <label for="">Location:</label>
-    <select id="00N5f00000SB1X0" name="00N5f00000SB1X0" title="Location">
-        <option value="">--None--</option>
-        <option value="Chicago">Chicago</option>
-        <option value="El Paso">El Paso</option>
-        <option value="Los Angeles">Los Angeles</option>
-        <option value="National">National</option>
-        <option value="Orange County">Orange County</option>
-        <option value="San Diego">San Diego</option>
-        <option value="San Marcos">San Marcos</option>
-        <option value="San Bernardino">San Bernardino</option>
-    </select>
-    <br>
-    <label for="">Comentarios</label>
-    <textarea name="" id="" cols="20" rows="10"></textarea>
-    <input type="submit" class="btn-submit" name="submit" id="submit">
-</form>
+<body>
+    <div class="containerThanks">
+        <div class="content">
+            <img src="images/EricpriceLogo-white.svg" alt="logo eric price" class="logoImg">
+            <h1>Registre sus datos para poder poder contactarnos con usted lo mas pronto posible</h1>
+            <form action="https://webto.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8" method="POST">
 
-<!-- #endregion Actual FORM -->
+                <input type=hidden name="oid" value="00D5f000006OVX8">
+                <input type=hidden name="retURL" value="http://127.0.0.1:5501/thanks.html">
+
+                <input type=hidden id="00N5f00000SB1Ws" name="00N5f00000SB1Ws" title="Language" value="Spanish">
+                <input type="hidden" id="lead_source" name="lead_source" value="EP-CA-Website">
+
+                <div class="inputGroup">
+                    <div class="inputItem">
+                        <label for="first_name">Nombre</label>
+                        <input id="first_name" maxlength="40" name="first_name" size="20" type="text" />
+                    </div>
+
+                    <div class="inputItem">
+                        <label for="last_name">Apellido</label>
+                        <input id="last_name" maxlength="80" name="last_name" size="20" type="text" />
+                    </div>
+                </div>
+                <label for="email">Correo electrónico</label>
+                <input id="email" maxlength="80" name="email" size="20" type="text" />
+                <label for="mobile">Teléfono Movil</label>
+                <input id="mobile" maxlength="40" name="mobile" size="20" type="text" />
+                <label for="mobile">Comentarios</label>
+                <textarea id="textArea" name="textArea" rows="6" cols="50">
+                </textarea>
+                <label for="">Lugar:</label>
+                <select id="00N5f00000SB1X0" name="00N5f00000SB1X0" title="Location">
+                    <option value="">--None--</option>
+                    <option value="Chicago">Chicago</option>
+                    <option value="El Paso">El Paso</option>
+                    <option value="Los Angeles">Los Angeles</option>
+                    <option value="National">National</option>
+                    <option value="Orange County">Orange County</option>
+                    <option value="San Diego">San Diego</option>
+                    <option value="San Marcos">San Marcos</option>
+                    <option value="San Bernardino">San Bernardino</option>
+                </select>
+                <div class="form-group">
+                    <label for="titleRadioButtons">Registrarse para recibir mensajes de texto:</label>
+                    <div class="radioGroup">
+                        <input type="radio" id="00N5f00000SB1XU" name="00N5f00000SB1XU" name="Agree" value="Yes"
+                            checked="true" />
+                        <label for="Agree">Estoy de acuerdo</label>
+                    </div>
+                    <div class="radioGroup">
+                        <input type="radio" id="00N5f00000SB1XU" name="00N5f00000SB1XU" name="Idisagree" value="No" />
+                        <label for="Idisagree">No estoy de acuerdo</label>
+                    </div>
+                </div>
+                <p>
+                    By entering my mobile number and checking this box I agree to receive case status updates,
+                    meeting updates, and legal news notifications from Abogado Eric Price Los Angeles
+                    Immigration
+                    Attorneys. Message frequency varies. Text HELP to 94289 for help. Text STOP to 94289 to end.
+                    Msg & data rates may apply. By opting in, I authorize Abogado Eric Price Los Angeles
+                    Immigration
+                    Attorneys to deliver SMS messages using an automatic telephone dialing system and I
+                    understand
+                    that I am not required to opt in as a condition of purchasing any property, goods, or
+                    services.
+                    By leaving this box unchecked you will not be opted in for SMS messages at this time.
+                    Click to read
+                </p>
+                <input type="submit" name="submit" class="btn-submit" value="Enviar">
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>
