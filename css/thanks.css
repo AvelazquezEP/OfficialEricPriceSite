@@ -1,0 +1,46 @@
+body {
+    text-align: center;
+    background-color: var(--primary-color);
+    background-blend-mode: multiply;
+}
+
+.containerThanks {
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logoImg {
+    width: 25rem;
+}
+
+.content {
+    padding: 0 .5rem 0 .5rem;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+}
+
+.content>h1 {
+    line-height: 4.5rem;
+    font: 3rem;
+}
+
+.content>p {
+    line-height: 3rem;
+    font-size: 2.5rem;
+    font-weight: 500;
+}
+
+.btn-home {
+    font-size: 2rem;
+    /* margin-top: 2.5rem; */
+    padding: 2rem 4rem;
+    border: none;
+    border-radius: 0.5rem;
+    background-color: var(--secondary-color);
+    color: white;
+}

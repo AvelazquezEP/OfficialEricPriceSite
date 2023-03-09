@@ -603,7 +603,7 @@ nav .fas {
 }
 
 .attDesc {
-    text-align: center;    
+    text-align: center;
     color: var(--primary-color);
     display: flex;
     flex-direction: column;
@@ -993,12 +993,13 @@ form {
     row-gap: 1rem;
 }
 
-form>.form-group>input {
+form>input, form>select, form>textarea {
     border: none;
     padding: 1rem;
     border-radius: .3rem;
-    box-shadow: .2rem .3rem .5rem var(--primary-color);
+    box-shadow: .2rem .2rem .5rem var(--primary-color);
 }
+
 
 .btn-submit {
     background-color: var(--primary-color);
